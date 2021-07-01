@@ -1,0 +1,40 @@
+.channel-page .follow button {
+    color: #fff !important;
+    background-color: blueviolet !important;
+}
+
+.video-section .card:hover {
+    /* جعل البطاقه عنند التأشير عليها بزر الفأرة تتحرك للاعلى */
+    transform: translateY(0%) !important;
+}
+
+
+.card .fa-play{
+    top: 25%;
+    font-size: 35px;
+    right: 45%;
+}
+  
+   
+time{
+     bottom: 190px !important;
+     left: 10px;
+    font-size: 13px;
+}
+
+@media (max-width: 593px) {
+    .navbar-light .navbar-nav .navbar-link {
+        font-size: 13px;
+        padding-left: 2px;
+        padding-right: 2px;
+
+    }
+}
+
+@media (min-width: 594px) {
+    .navbar-light .navbar-nav .navbar-link {
+        padding-left: 2px;
+        padding-right: 4px;
+
+    }
+}
